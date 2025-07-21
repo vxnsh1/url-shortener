@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import InputShortener from './components/InputShortener'
 
 const App = () => {
+  const [inputValue, setinputValue] = useState("")
   return (
-    <div>
-      
+    <div className='w-full h-screen'>
+      <InputShortener inputValue={inputValue} setInputValue={setinputValue} />
     </div>
   )
 }
