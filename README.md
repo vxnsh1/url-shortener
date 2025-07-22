@@ -1,12 +1,20 @@
-# React + Vite
+# 🔗 URL Shortener (Frontend MVP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend-only URL shortener** built with React and TailwindCSS.  
+This is a minimal viable product (MVP) demonstrating link shortening, copying to clipboard, and local redirection using `nanoid`.
 
-Currently, two official plugins are available:
+## ✨ Features
+- ✅ Fake short URL generation with `nanoid`
+- ✅ Copy to clipboard with visual feedback
+- ✅ Dark mode support
+- ✅ Built using **React + TailwindCSS** + **Lucide Icons**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Tech Stack
+- React
+- TailwindCSS
+- Lucide Icons
+- Nanoid
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚧 What's Next?
+This is the **frontend MVP**.  
+The backend (using Spring Boot + MySQL) will come later when I deep dive into backend development.
