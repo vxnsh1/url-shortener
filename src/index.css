@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
-*{
-  outline: 1 solid red;
-}
+
 body{
     font-family: "IBM Plex Sans", sans-serif;
 }
